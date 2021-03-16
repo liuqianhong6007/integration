@@ -1,0 +1,11 @@
+p, etcd_admin, GET[/etcd/get], read
+p, etcd_admin, POST[/etcd/add], write
+p, etcd_admin, POST[/etcd/delete], write
+p, database_admin, GET[/mytable/query_table_list], read
+p, database_admin, GET[/mytable/query_table_struct], read
+p, database_admin, GET[/mytable/query_table_data], read
+p, database_admin, POST[/mytable/insert_table_data], write
+p, database_admin, POST[/mytable/update_table_data], write
+p, database_admin, POST[/mytable/delete_table_data], write
+g, liuqianhong, etcd_admin
+g, liuqianhong, database_admin

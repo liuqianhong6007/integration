@@ -1,0 +1,9 @@
+[submodule "authentication"]
+	path = authentication
+	url = https://github.com/liuqianhong6007/authentication.git
+[submodule "etcd_backend"]
+	path = etcd_backend
+	url = https://github.com/liuqianhong6007/etcd_backend.git
+[submodule "front-page"]
+	path = front-page
+	url = https://github.com/liuqianhong6007/front-page.git
